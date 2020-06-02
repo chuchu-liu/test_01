@@ -145,5 +145,6 @@
       `git reset HEAD <file>`
    + 移除多个   
       `git reset HEAD .`
-
-
+- 跳过使用暂存区   
+   + 直接从工作区到Git仓库   
+     `git commit -a -m "描述信息"`把所有已经跟踪过的文件暂存起来一并提交，跳过`git add`
